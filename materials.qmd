@@ -1,0 +1,45 @@
+---
+title: "Materials"
+format:
+  html:
+    page-layout: full
+---
+
+## Slides
+
+*[Slides to be provided]*
+
+---
+
+## Handouts
+
+*[Handouts to be provided]*
+
+- **Tutorial Overview Handout** - [Link to be added]
+- **Quick Reference Guide** - [Link to be added]
+- **Exercise Solutions** - [Link to be added]
+
+---
+
+## Code and Software
+
+### GitHub Repository
+
+*[Repository link to be provided]*
+
+### Jupyter Notebooks
+
+*[Notebooks to be provided]*
+
+- **Tutorial Exercises Notebook** - [Link to be added]
+- **Example Demonstrations** - [Link to be added]
+- **Advanced Examples** - [Link to be added]
+
+---
+
+## Datasets
+
+*[Datasets to be provided]*
+
+---
+

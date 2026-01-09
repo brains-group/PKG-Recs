@@ -1,0 +1,51 @@
+---
+title: "Schedule"
+format:
+  html:
+    page-layout: full
+---
+
+## Tutorial Schedule
+
+### Detailed Schedule
+
+| Duration | Activity |
+|:---------|:---------|
+| **10 min** | **Introduction**<br><em>Motivation, limitations of centralized personalization, and overview of PKG-driven decentralization.</em> |
+| **30 min** | **Personal Knowledge Graph Foundations**<br><em>PKG representation, provenance, schema alignment, and examples (FoodKG, Health and Finance PKGs).</em> |
+| **30 min** | **Decentralized AI Architectures**<br><em>Federated learning variants; blockchain-based smart contract coordination.</em> |
+| **10 min** | **Break** |
+| **20 min** | **Semantic–Neural Personalization**<br><em>Rule-guided KG adaptation, behavioral alignment, and filter-bubble mitigation.</em> |
+| **20 min** | **Knowledge-Graph-Grounded RAG Pipelines**<br><em>Parallel and multi-stage retrieval; building compact personalized contexts.</em> |
+| **60 min** | **Hands-On Exercise**<br>Participants use provided Jupyter notebooks to:<br>• Build a small PKG using RDFLib<br>• Run a toy federated personalization flow using Flower<br>• Execute KG-based retrieval for LLM prompting |
+| **30 min** | **Discussion and Q&A** |
+
+**Total Duration: 3 hours 20 minutes**
+
+::: {.callout-note}
+## Note
+The schedule includes interactive hands-on exercises. Participants are encouraged to bring a laptop with the required software pre-installed (see Materials Needed section below).
+:::
+
+---
+
+## Prerequisites
+
+- Basic understanding of knowledge graphs
+- Familiarity with recommendation systems (helpful but not required)
+- Programming experience with Python (for hands-on session)
+
+---
+
+## Materials Needed
+
+- **Laptop** with internet connection
+- **Pre-installed software:**
+  - Python 3.8 or higher
+  - Jupyter Notebook or JupyterLab
+  - Git (for cloning repositories)
+- **Required Python packages:**
+  - [RDFLib](https://rdflib.readthedocs.io/) - for PKG construction
+  - [Flower](https://flower.dev/) - for federated learning
+  - Additional packages will be listed in the tutorial materials
+

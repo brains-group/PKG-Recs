@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Knowledge Graph-Powered Decentralized Personalization"
+  site-url: https://brains-group.github.io/PKG-Recs/
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: schedule.qmd
+        text: Schedule
+      - href: materials.qmd
+        text: Materials
+  sidebar:
+    style: "docked"
+    search: true
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    citation-location: document
+    link-external-icon: true
+    link-external-newwindow: true
+
+editor: visual

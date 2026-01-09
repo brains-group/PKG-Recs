@@ -1,0 +1,166 @@
+---
+title: "Knowledge Graph-Powered Decentralized Personalization"
+subtitle: "Tutorial at ESWC 2026"
+format:
+  html:
+    page-layout: full
+---
+
+## About
+
+This tutorial will be presented at the [23rd European Semantic Web Conference (ESWC 2026)](https://2026.eswc-conferences.org/) in Dubrovnik, Croatia, May 10-14, 2026.
+
+---
+
+### Abstract
+
+Personalization today is dominated by centralized systems that require extensive user data collection, raising critical concerns about privacy, autonomy, transparency, and user agency. At the same time, advances in semantic technologies, especially Personal Knowledge Graphs (PKGs), offer rich, interpretable, user-centric structures for modeling preferences, behaviors, and context. This tutorial presents the emerging paradigm of decentralized personalization, which brings together PKGs, federated learning, privacy-preserving computation, blockchain-based trust infrastructures, and large language models (LLMs). Participants will learn how PKGs can anchor personalization while ensuring data sovereignty, how decentralized learning architectures operate, how semantic–neural hybrid recommenders are constructed, and how retrieval-augmented generation (RAG) pipelines can leverage personal and exogenous knowledge graphs.
+
+---
+
+## Speakers
+
+::: {.speakers}
+
+### Oshani Seneviratne
+
+*Oshani is an Assistant Professor of Computer Science at Rensselaer Polytechnic Institute (RPI), where she leads the BRAINS Lab (Bridging Resilient, Accountable, Intelligent Networked Systems). Her research focuses on decentralized systems, including web technologies, blockchain, and decentralized learning, with applications in health informatics and FinTech. Her research has been recognized with multiple best paper awards and the Yahoo! Key Scientific Challenges Award. Oshani has held various leadership positions in international conferences, and she has co-organized many workshops and symposia.*
+
+- **Affiliation:** RPI
+- **Email:** senevo@rpi.edu
+- **Website:** http://oshani.info
+
+### Fernando Spadea
+
+*Fernando is a PhD student in Computer Science at RPI advised by Prof. Seneviratne. 
+His research centers on personalized recommendation systems and novel strategies for mitigating over-personalization through PKG adaptation. He is the lead architect behind several state-of-the-art PKG-driven recommender frameworks—including FedTREK-LM, FLARKO, and RAG-FLARKO—all of which will be highlighted in this tutorial. Notably, RAG-FLARKO received the Best Application Paper Award at the RAGE-KG 2025 workshop at ISWC 2025. Fernando brings deep technical expertise and extensive experience presenting at premier international venues, and organizing research competitions (e.g., the FinSurvival Challenge at ICAIF 2025).*
+
+- **Affiliation:** RPI
+- **Email:** spadef@rpi.edu
+
+:::
+
+---
+
+## Detailed Outline
+
+### 1. Introduction (10 min)
+
+- Motivation: limitations of centralized personalization systems
+- Overview of PKG-driven decentralization
+- Tutorial objectives and structure
+
+### 2. Background and Foundations (60 min)
+
+#### 2.1 Personal Knowledge Graph Foundations (30 min)
+
+- PKG representation, provenance, and schema alignment
+- Examples from recent work:
+  - **FoodKG** [@haussmann2019foodkg]: Personalized food recommendations [@haussmann2019foodkgqa; @rastogi2020applying] and ingredient substitutions [@shirai2021identifying]
+  - **Neuro-symbolic approaches** to food computing [@cenikj2024neurosymbolic]
+  - **Rule-guided personalization** [@spadea2025avoiding]
+
+#### 2.2 Decentralized AI Architectures (30 min)
+
+- **Federated learning variants** for decentralized personalization
+- **Blockchain-based smart contract coordination** for trust and data sovereignty
+- Examples from health applications:
+  - Personalized mental health recommendations [@shukla2023MentalHealthAI]
+  - Blockchain and IoT-enhanced health data integration [@shukla2021blockiot; @shukla2021blockiotretel; @shukla2022blockchain]
+  - Personal health knowledge graphs [@seneviratne2021personal; @seneviratne2023personal]
+  - Clinical decision logic in knowledge graphs and smart contracts [@vanwoensel2023enabling]
+
+### 3. Semantic–Neural Personalization (20 min)
+
+- Rule-guided KG adaptation
+- Behavioral alignment techniques
+- Filter-bubble mitigation strategies
+- Examples from financial recommendations [@spadea2025aligning]
+
+### 4. Knowledge-Graph-Grounded RAG Pipelines (20 min)
+
+- Parallel and multi-stage retrieval strategies
+- Building compact personalized contexts
+- Integration with LLMs for recommendations
+- Recent advances in KG-based RAG [@spadea2025parallel]
+
+### 5. Hands-On Exercise (60 min)
+
+Participants will use provided Jupyter notebooks to:
+
+- Build a small PKG using RDFLib [@RDFLibStable]
+- Run a toy federated personalization flow using Flower [@FlowerAI]
+- Execute KG-based retrieval for LLM prompting
+
+### 6. Discussion and Q&A (30 min)
+
+- Summary of key takeaways
+- Open questions and future directions
+- Discussion on practical deployment challenges
+
+---
+
+## References
+
+This tutorial builds on recent PKG-based decentralized personalization systems that demonstrate applications across health, food, finance, and beyond. Below are the key references organized by application domain.
+
+### Food and Nutrition Personalization
+
+FoodKG and related work on personalized food recommendations and ingredient substitutions:
+
+- [FoodKG: A Semantics-driven Knowledge Graph for Food Recommendation](#ref-haussmann2019foodkg) [@haussmann2019foodkg]
+- [FoodKG Enabled Q&A Application](#ref-haussmann2019foodkgqa) [@haussmann2019foodkgqa]
+- [Applying Learning and Semantics for Personalized Food Recommendations?](#ref-rastogi2020applying) [@rastogi2020applying]
+- [Identifying Ingredient Substitutions Using a Knowledge Graph of Food](#ref-shirai2021identifying) [@shirai2021identifying]
+- [Neurosymbolic Methods for Food Computing](#ref-cenikj2024neurosymbolic) [@cenikj2024neurosymbolic]
+- [Avoiding Overpersonalization with Rule-Guided Knowledge Graph Adaptation for LLM Recommendations](#ref-spadea2025avoiding) [@spadea2025avoiding]
+
+### Health and Mental Health Personalization
+
+Personalized health recommendations powered by blockchain, Internet-of-Things, and knowledge graphs:
+
+- [MentalHealthAI: Utilizing Personal Health Device Data to Optimize Psychiatry Treatment](#ref-shukla2023MentalHealthAI) [@shukla2023MentalHealthAI]
+- [BlockIoT: Blockchain-based Health Data Integration using IoT Devices](#ref-shukla2021blockiot) [@shukla2021blockiot]
+- [BlockIoT-RETEL: Blockchain and IoT Based Read-Execute-Transact-Erase-Loop Environment for Integrating Personal Health Data](#ref-shukla2021blockiotretel) [@shukla2021blockiotretel]
+- [Blockchain and IoT Enhanced Clinical Workflow](#ref-shukla2022blockchain) [@shukla2022blockchain]
+- [Personal Health Data Integration and Intelligence through Semantic Web and Blockchain Technologies](#ref-seneviratne2021personal) [@seneviratne2021personal]
+- [Personal health knowledge graph construction using Internet of Medical Things](#ref-seneviratne2023personal) [@seneviratne2023personal]
+- [Translating Clinical Decision Logic Within Knowledge Graphs to Smart Contracts](#ref-vanwoensel2023enabling) [@vanwoensel2023enabling]
+
+### Financial Personalization
+
+Personalized financial asset recommendations aligned to user behaviors leveraging knowledge graphs, LLMs, RAG, and federated learning:
+
+- [Aligning Language Models with Investor and Market Behavior for Financial Recommendations](#ref-spadea2025aligning) [@spadea2025aligning]
+- [Parallel and Multi-Stage Knowledge Graph Retrieval for Behaviorally Aligned Financial Asset Recommendations](#ref-spadea2025parallel) [@spadea2025parallel]
+
+### Tools and Frameworks
+
+Essential tools used in the hands-on exercises:
+
+- [RDFLib: A Python Library for RDF documentation](#ref-RDFLibStable) [@RDFLibStable]
+- [Flower: A Friendly Federated Learning Framework](#ref-FlowerAI) [@FlowerAI]
+
+---
+
+### Further Reading and Resources
+
+For a deeper dive into the topics covered in this tutorial, we recommend exploring:
+
+**Personal Knowledge Graphs:**
+- The field of Personal Knowledge Graphs (PKGs) and their applications in various domains
+
+**Decentralized AI:**
+- Federated learning frameworks and architectures
+- Blockchain-based trust infrastructures for decentralized systems
+- Privacy-preserving computation techniques
+
+**Semantic Web Technologies:**
+- Knowledge graph construction and maintenance
+- Schema alignment and ontology engineering
+- SPARQL querying and semantic reasoning
+
+**Recommendation Systems:**
+- Hybrid semantic–neural approaches
+- Retrieval-augmented generation (RAG) pipelines
+- Behavioral alignment and personalization strategies
