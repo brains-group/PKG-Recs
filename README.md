@@ -37,32 +37,6 @@ This website is built using [Quarto](https://quarto.org/). To build and preview 
 4. **View the rendered site**:
    The rendered website will be in the `_site/` directory.
 
-## Publishing to GitHub Pages
-
-This website is automatically published to GitHub Pages at [https://brains-group.github.io/PKG-Recs/](https://brains-group.github.io/PKG-Recs/) using GitHub Actions.
-
-### Automatic Deployment
-
-The website will automatically rebuild and deploy when you:
-- Push commits to the `main` or `master` branch
-- Merge pull requests into `main` or `master`
-
-The GitHub Actions workflow (`.github/workflows/publish.yml`) handles:
-1. Installing Quarto
-2. Rendering the website
-3. Deploying to GitHub Pages
-
-### Manual Setup (First Time)
-
-If this is the first time setting up GitHub Pages for this repository:
-
-1. Go to your repository settings on GitHub
-2. Navigate to **Pages** under **Settings**
-3. Under **Source**, select **GitHub Actions**
-4. The workflow will automatically deploy on the next push to `main`/`master`
-
-The website will be available at: **https://brains-group.github.io/PKG-Recs/**
-
 ## Customization
 
 - Edit `index.qmd` for the main content
