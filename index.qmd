@@ -46,14 +46,14 @@ His research centers on personalized recommendation systems and novel strategies
 
 ### 1. Introduction (10 min)
 
-- Motivation: limitations of centralized personalization systems
-- Overview of PKG-driven decentralization
 - Tutorial objectives and structure
 
 ### 2. Background and Foundations (60 min)
 
 #### 2.1 Personal Knowledge Graph Foundations (30 min)
 
+- Motivation: limitations of centralized personalization systems
+- Overview of PKG-driven decentralization
 - PKG representation, provenance, and schema alignment
 - Examples from recent work:
   - **FoodKG** [@haussmann2019foodkg]: Personalized food recommendations [@haussmann2019foodkgqa; @rastogi2020applying] and ingredient substitutions [@shirai2021identifying]
