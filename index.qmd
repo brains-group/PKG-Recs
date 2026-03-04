@@ -74,8 +74,9 @@ His research centers on personalized recommendation systems and novel strategies
 
 - Rule-guided KG adaptation
 - Behavioral alignment techniques
-- Filter-bubble mitigation strategies
+- Filter-bubble mitigation strategies [@spadea2025avoiding]
 - Examples from financial recommendations [@spadea2025aligning]
+- Federated Personal Knowledge Graph Completion with Lightweight Large Language Models for Personalized Recommendations [@spadea2026federated]
 
 ### 4. Knowledge-Graph-Grounded RAG Pipelines (20 min)
 

@@ -173,3 +173,55 @@ booktitle = {Posters Track, ISWC 2025, November 2--6, 2025, Nara, Japan}
   howpublished = {\url{https://flower.ai}},
   note = {Accessed: November 2025}
 }
+
+@inproceedings{spadea2026federated,
+author = {Spadea, Fernando and Seneviratne, Oshani},
+title = {Federated Personal Knowledge Graph Completion with Lightweight Large Language Models for Personalized Recommendations},
+year = {2026},
+booktitle = {Proceedings of the European Semantic Web Conference},
+}
+
+@inproceedings{spadea2025avoiding,
+author = {Fernando Spadea and Oshani Seneviratne},
+title = {{Avoiding Over-Personalization with Rule-Guided Knowledge Graph Adaptation for LLM Recommendations}},
+year = {2025},
+booktitle = {Posters Track, ISWC 2025, November 2--6, 2025, Nara, Japan},
+url={https://ceur-ws.org/Vol-4085/paper28.pdf},
+}
+
+@inproceedings{spadea2025federated,
+author = {Spadea, Fernando and Seneviratne, Oshani},
+title = {Federated Fine-Tuning of Large Language Models: Kahneman-Tversky vs. Direct Preference Optimization},
+year = {2025},
+isbn = {9798400713316},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3701716.3717647},
+doi = {10.1145/3701716.3717647},
+abstract = {We evaluate Kahneman-Tversky Optimization (KTO) as a fine-tuning method for large language models (LLMs) in federated learning (FL) settings, comparing it against Direct Preference Optimization (DPO). Using Alpaca-7B as the base model, we fine-tune on a realistic dataset under both methods and evaluate performance using MT-Bench-1, Vicuna, and AdvBench benchmarks. Additionally, we introduce a redistributed dataset setup, where only KTO is applicable due to its ability to handle single-response feedback, unlike DPO's reliance on paired responses. Our results demonstrate that KTO, in both its original (KTOO) and redistributed (KTOR) configurations, consistently outperforms DPO across all benchmarks. In the redistributed setup, KTO further validates its flexibility and resilience by maintaining superior performance in scenarios where DPO cannot be applied. These findings establish KTO as a robust and scalable fine-tuning method for FL, motivating its adoption for privacy-preserving, decentralized, and heterogeneous environments.},
+booktitle = {Companion Proceedings of the ACM on Web Conference 2025},
+pages = {1757–1760},
+numpages = {4},
+keywords = {benchmarking, direct preference optimization, distributed training, federated learning, fine-tuning, kahneman-tversky optimization, large language models},
+location = {Sydney NSW, Australia},
+series = {WWW '25}
+}
+
+@inproceedings{spadea2025bursting,
+author = {Spadea, Fernando and Seneviratne, Oshani},
+title = {Bursting the Filter Bubble with Knowledge Graph Inversion},
+year = {2025},
+isbn = {9798400715358},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3720554.3736182},
+doi = {10.1145/3720554.3736182},
+abstract = {As recommender systems increasingly mediate our online experiences, ethical concerns arise as they often reinforce filter bubbles-narrow content loops that isolate users from diverse perspectives. In this paper, we propose a novel approach to mitigating filter bubbles by combining personalized knowledge graph (KG) completion with federated learning (FL) and KG edge inversion techniques. User-specific KGs are constructed from private interaction data and remain entirely on-device, preserving privacy while enabling the system to learn fine-grained preferences. A central recommendation model is trained collaboratively via FL, allowing KG completion without exposing sensitive user data. To disrupt filter bubbles, we introduce KG edge inversion, a method that strategically inverts selected relations in the user’s KG to simulate alternative viewpoints. The model then produces plausible yet diverse recommendations, effectively guiding users beyond their typical content landscape. Our approach offers a transparent and controllable framework for promoting opinion diversity and combating the isolating effects of algorithmic personalization.},
+booktitle = {Companion Publication of the 17th ACM Web Science Conference 2025},
+pages = {39–43},
+numpages = {5},
+keywords = {Knowledge Graph, Federated Learning, Knowledge Graph Edge Inversion, Filter Bubble, Echo Chamber, Knowledge Graph Completion},
+location = {
+},
+series = {Websci Companion '25}
+}
