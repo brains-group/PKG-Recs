@@ -72,9 +72,9 @@ His research centers on personalized recommendation systems and novel strategies
 
 ### 3. Semantic–Neural Personalization (20 min)
 
-- Rule-guided KG adaptation
-- Behavioral alignment techniques
-- Filter-bubble mitigation strategies [@spadea2025avoiding]
+- Rule-guided KG adaptation [@spadea2025avoiding]
+- Behavioral alignment techniques [@spadea2025federated]
+- Filter-bubble mitigation strategies [@spadea2025bursting]
 - Examples from financial recommendations [@spadea2025aligning]
 - Federated Personal Knowledge Graph Completion with Lightweight Large Language Models for Personalized Recommendations [@spadea2026federated]
 
@@ -91,7 +91,7 @@ Participants will use provided Jupyter notebooks to:
 
 - Build a small PKG using RDFLib [@RDFLibStable]
 - Run a toy federated personalization flow using Flower [@FlowerAI]
-- Execute KG-based retrieval for LLM prompting
+- Execute KG-based retrieval for LLM prompting using LangChain [@langchain_huggingface_docs]
 
 ### 6. Discussion and Q&A (30 min)
 
