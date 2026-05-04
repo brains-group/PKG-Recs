@@ -7,17 +7,7 @@ format:
 
 ## Slides
 
-*[Slides to be provided]*
-
----
-
-## Handouts
-
-*[Handouts to be provided]*
-
-- **Tutorial Overview Handout** - [Link to be added]
-- **Quick Reference Guide** - [Link to be added]
-- **Exercise Solutions** - [Link to be added]
+<https://docs.google.com/presentation/d/1WQeI8KArnATds6HlgTxCVtM7AbHa2JbI_9bhOKd6NFg/edit?usp=sharing>
 
 ---
 
@@ -25,21 +15,18 @@ format:
 
 ### GitHub Repository
 
-*[Repository link to be provided]*
+<https://github.com/brains-group/PKG-Recs>
 
 ### Jupyter Notebooks
 
-*[Notebooks to be provided]*
-
-- **Tutorial Exercises Notebook** - [Link to be added]
-- **Example Demonstrations** - [Link to be added]
-- **Advanced Examples** - [Link to be added]
+[Exercises](https://colab.research.google.com/drive/1bK57phgevC5YCG60o8xiAPpdOXqRzXV4?usp=sharing)
+[Solutions](https://colab.research.google.com/drive/13HYI6JacJSmMfOp0elAPPxVEXPckIPgY?usp=sharing)
 
 ---
 
 ## Datasets
 
-*[Datasets to be provided]*
+[ReDial](https://huggingface.co/datasets/recwizard/redial)
 
 ---
 
