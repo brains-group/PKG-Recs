@@ -20,6 +20,7 @@ format:
 ### Jupyter Notebooks
 
 [Exercises](https://colab.research.google.com/drive/1bK57phgevC5YCG60o8xiAPpdOXqRzXV4?usp=sharing)
+
 [Solutions](https://colab.research.google.com/drive/13HYI6JacJSmMfOp0elAPPxVEXPckIPgY?usp=sharing)
 
 ---
