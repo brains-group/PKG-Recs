@@ -1,6 +1,5 @@
 ---
 title: "Knowledge Graph-Powered Decentralized Personalization"
-subtitle: "Tutorial at ESWC 2026"
 format:
   html:
     page-layout: full
@@ -8,7 +7,7 @@ format:
 
 ## About
 
-This tutorial will be presented at the [23rd European Semantic Web Conference (ESWC 2026)](https://2026.eswc-conferences.org/) in Dubrovnik, Croatia, May 10-14, 2026.
+This tutorial will be presented at Josef Stefan Institute on May 5, 2026 and at the [23rd European Semantic Web Conference (ESWC 2026)](https://2026.eswc-conferences.org/) in Dubrovnik, Croatia, May 11, 2026.
 
 ---
 
