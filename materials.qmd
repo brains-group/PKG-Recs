@@ -13,10 +13,6 @@ format:
 
 ## Code and Software
 
-### GitHub Repository
-
-<https://github.com/brains-group/PKG-Recs>
-
 ### Jupyter Notebooks
 
 [Exercises](https://colab.research.google.com/drive/1bK57phgevC5YCG60o8xiAPpdOXqRzXV4?usp=sharing)
