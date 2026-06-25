@@ -7,7 +7,9 @@ format:
 
 ## About
 
-This tutorial will be presented at Josef Stefan Institute on May 5, 2026 and at the [23rd European Semantic Web Conference (ESWC 2026)](https://2026.eswc-conferences.org/) in Dubrovnik, Croatia, May 11, 2026.
+This tutorial will be presented at the [25th International Semantic Web Conference (ISWC 2026)](https://iswc2026.semanticweb.org) in Bari, Italy on October 25-26, 2026.
+
+Previous versions of this tutorial was presented at the Josef Stefan Institute on May 5, 2026 and at the [23rd European Semantic Web Conference (ESWC 2026)](https://2026.eswc-conferences.org/) in Dubrovnik, Croatia on May 11, 2026.
 
 ---
 
